@@ -1,0 +1,48 @@
+body {
+    background-color: beige; /* фон */
+    color: white;
+}
+
+* {padding: 0; margin: 0} /* обнулення */
+
+#wrapper {
+    background-color: coral;
+    min-height: 100vh;
+    height: auto;
+    display: grid; /* включення grid */
+    grid-template-columns: repeat(12, 1fr); /* 12 колонок */
+    grid-template-rows: repeat(8, 1fr); /* 8 рядків */
+    grid-auto-rows: minmax(100px, auto);
+    grid-column-gap: 5px; /* горизонтальні відступи */
+    grid-row-gap: 10px; /* вертикальні відступи */
+}
+
+header {
+    background-color: blueviolet;
+    grid-column: 1/13; /* на всю ширину */
+    grid-row: 1/3; /* 2 рядки */
+}
+
+nav {
+    background-color: darkcyan;
+    grid-column: 1/4;
+    grid-row: 3/8;
+}
+
+#cont {
+    background-color: #4260ff;
+    grid-column: 4/10;
+    grid-row: 3/8;
+}
+
+#url_web {
+    background-color: #ff359f;
+    grid-column: 10/13;
+    grid-row: 3/8;
+}
+
+footer {
+    background-color: #3dff48;
+    grid-column: 1/13;
+    grid-row: 8/9;
+}

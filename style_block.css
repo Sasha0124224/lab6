@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+* {
+    margin: 0px; /* обнуляємо відступи */
+    padding: 0px; /* обнуляємо внутрішні відступи */
+}
+
+#wrapper {
+    width: 100%; /* повна ширина */
+    min-height: 100vh; /* мінімальна висота = висота екрана */
+    background-color: #FFCCFF; /* рожевий фон */
+}
+
+header {
+    height: 20vh; /* висота шапки */
+    background-color: #FF6600; /* оранжевий фон */
+}
+
+#content {
+    height: auto; /* автоматична висота */
+    background-color: #0099FF; /* синій фон */
+}
+
+nav {
+    float: left; /* зліва */
+    min-height: 60vh; /* висота */
+    width: 20%;
+    background-color: darkcyan;
+}
+
+#cont {
+    float: left;
+    min-height: 60vh;
+    width: 60%;
+    background-color: #4260ff;
+}
+
+#url_web {
+    float: left;
+    min-height: 60vh;
+    width: 20%;
+    background-color: #FFFF00;
+}
+
+footer {
+    background-color: #3dff48;
+    height: 20vh;
+    clear: both; /* очищення float */
+}
